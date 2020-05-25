@@ -21,6 +21,10 @@ body {
   color: #fff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Typeography General*/
 h1 {
   font-family: "Fira Sans", sans-serif;
@@ -163,6 +167,10 @@ section:nth-of-type(even) .landing__container::before {
   border-radius: 50%;
   opacity: 0;
   transition: ease 0.5s all;
+}
+
+.active {
+    background-color: #a8565685;
 }
 
 section:nth-of-type(3n) .landing__container::after {
