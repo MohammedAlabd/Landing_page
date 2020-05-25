@@ -17,8 +17,6 @@
  * Define Global Variables
  *
  */
-window.addEventListener("DOMContentLoaded", () => {
-  console.log("hi");
   const navbarList = document.querySelector("#navbar__list");
   const navbarElements = document.querySelectorAll("[data-nav]");
   /**
@@ -46,6 +44,8 @@ window.addEventListener("DOMContentLoaded", () => {
    * Begin Main Functions
    *
    */
+const main = () => {
+
 
   // build the nav
   BuildNavbar();
@@ -65,4 +65,6 @@ window.addEventListener("DOMContentLoaded", () => {
   // Scroll to section on link click
 
   // Set sections as active
-});
+}
+
+window.addEventListener("DOMContentLoaded", main);
